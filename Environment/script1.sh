@@ -3,9 +3,10 @@ sudo apt-get install cmake3
 
 echo "sudo apt update"
 sudo apt update
+sudo apt-get update
 
-echo "Install libboost-all-dev
-sudo apt-get install libboost-all-dev 
+echo "Install libboost-all-dev"
+sudo apt-get install libboost-all-dev
 
 echo "##### Start ROS Indigo installation #####"
 sleep 5
