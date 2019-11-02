@@ -7,41 +7,35 @@ echo "sudo apt-get remove x264 libx264-dev"
 echo "***********************************"
 echo "Installing Dependenices"
 
-sudo apt-get install libopencv-dev
+sudo apt-get -y install libopencv-dev
 
 echo "************Build Tools***********************"
 echo "<----------------------------------------------------Build Tools------------------------------------------------->"
-sudo apt-get install build-essential pkg-config git checkinstall 
+sudo apt-get -y install build-essential pkg-config git checkinstall 
 echo "*_*_*_*_*_*_*_*_*_*_*_*_*_*"
 
 echo "<------------------------------------------------------Image I/O----------------------------------------------------->"
-sudo apt-get install libtiff5-dev libjpeg-dev libjasper-dev libpng12-dev zliblg-dev libwebp-dev libopenexr-dev libgdal-dev  libdc1394-22-dev
+sudo apt-get -y install libtiff5-dev libjpeg-dev libjasper-dev libpng12-dev zliblg-dev libwebp-dev libopenexr-dev libgdal-dev  libdc1394-22-dev
 echo "***********************************"
 
 echo "<--------------------------------------------------------Video I/O--------------------------------------------------->"
-sudo apt-get install libavcodec-dev libavformat-dev libmp3lame-dev
-sudo apt-get install libswscale-dev libdc1394-22-dev libxine-dev
-sudo apt-get install libgstreamer0.10-dev libgstreamer-plugins-base0.10-dev
-sudo apt-get install libv4l-dev v4l-utils libfaac-dev libopencore-amrnb-dev
-sudo apt-get install libopencore-amrwb-dev libtheora-dev libvorbis-dev
-sudo apt-get install libxvidcore-dev libx264-dev x264 yasm
+sudo apt-get -y install libavcodec-dev libavformat-dev libmp3lame-dev libswscale-dev libdc1394-22-dev libxine-dev libgstreamer0.10-dev libgstreamer-plugins-base0.10-dev
+sudo apt-get -y install libv4l-dev v4l-utils libfaac-dev libopencore-amrnb-dev libopencore-amrwb-dev libtheora-dev libvorbis-dev libxvidcore-dev libx264-dev x264 yasm
 echo "***********************************"
 
 echo "Parallelism and linear algebra libraries"
-sudo apt-get install libtbb-dev libeigen3-dev libtbb2
+sudo apt-get -y install libtbb-dev libeigen3-dev libtbb2
 echo "***********************************"
 
 echo "<------------------------------------------------for GUI------------------------------------------------->"
-sudo apt-get install libqt4-dev libgtk2.0-dev qt5-default
-sudo apt-get install libvtk6-dev
+sudo apt-get -y install libqt4-dev libgtk2.0-dev qt5-default libvtk6-dev
 echo "*************************************************************************************************************"
 
 echo "<--------------For JAVA-------------------->"
-sudo apt-get install ant default-jdk
+sudo apt-get -y install ant default-jdk
 
 echo "<-------********------For Python------********-------->"
-sudo apt-get install python-dev python-tk python-numpy python3-dev python3-tk python3-numpy python-matplotlib
-sudo apt-get install python-opencv
+sudo apt-get -y install python-dev python-tk python-numpy python3-dev python3-tk python3-numpy python-matplotlib python-opencv
 echo "%_%_%_%_%_%_%_%_%_%_%_%_%_%_%_%_%_%_%_%_%_%"
 
 
